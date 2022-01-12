@@ -2,11 +2,11 @@
 	"env": [{
 			"install": "true",
 			"appname": "nsentest",
-			"pipelinename": "airtel-germany",
+			"pipelinename": "airtel-india",
 			"params": {
-				"image": "nginx:1.17",
+				"image": "restapp:simple-restapp-125",
 				"account": "default",
-				"namespace": "nginx"
+				"namespace": "oes"
 			}
 		},
 		{
@@ -22,11 +22,11 @@
 		{
 			"install": "true",
 			"appname": "nsentest",
-			"pipelinename": "airtel-india",
+			"pipelinename": "airtel-germany",
 			"params": {
-				"image": "restapp:simple-restapp-125",
+				"image": "nginx:1.17",
 				"account": "prod",
-				"namespace": "oes"
+				"namespace": "nginx"
 			}
 		}
 	]
