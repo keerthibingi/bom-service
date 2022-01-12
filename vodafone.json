@@ -25,9 +25,9 @@
 			"appname": "nsentest",
 			"pipelinename": "vodafone-india",
 			"params": {
-				"image": "restapp:gradle-restapp-22",
+				"image": "restapp:simple-restapp-130",
 				"account": "prod",
-				"namespace": "restapp"
+				"namespace": "oes"
 			}
 		}
 	]
