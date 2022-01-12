@@ -16,8 +16,8 @@
 			"pipelinename": "airtel-us",
 			"params": {
 				"image": "postgres:10-alpine",
-				"account": "saas",
-				"namespace": "postgres"
+				"account": "default",
+				"namespace": "oes"
 			}
 		},
 		{
