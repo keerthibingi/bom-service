@@ -8,7 +8,6 @@
 				"account": "default",
 				"namespace": "nginx"
 			}
-
 		},
 		{
 			"install": "false",
