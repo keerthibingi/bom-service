@@ -2,7 +2,7 @@
 	"env": [{
 			"install": "true",
 			"appname": "nsentest",
-			"pipelinename": "vodafone-germany",
+			"pipelinename": "vodafone-japan",
 			"params": {
 				"image": "nginx:1.17",
 				"account": "default",
