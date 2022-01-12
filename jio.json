@@ -1,28 +1,34 @@
 {
-   "env":[
-      {  
-         "appname":"nsentest",
-         "install":"false",
-         "image":"nginx:1.17",
-         "account":"default",
-         "namespace":"nginx",
-         "pipelinename":"jio-germany"
-      },
-      {   
-         "appname":"nsentest",
-         "install":"false",
-         "image":"postgres:10-alpine",
-         "account":"saas",
-         "namespace":"postgres",
-         "pipelinename":"jio-aus"
-      },
-      {
-         "appname":"nsentest",
-         "install":"true",
-         "image":"restapp:gradle-restapp-22",
-         "account":"prod",
-         "namespace":"restapp",
-         "pipelinename":"jio-india"
-      }
-   ]
+	"env": [{
+			"install": "true",
+			"appname": "nsentest",
+			"pipelinename": "vodafone-germany",
+			"params": {
+				"image": "nginx:1.17",
+				"account": "default",
+				"namespace": "nginx"
+			}
+
+		},
+		{
+			"install": "true",
+			"appname": "nsentest",
+			"pipelinename": "vodafone-us",
+			"params": {
+				"image": "postgres:10-alpine",
+				"account": "default",
+				"namespace": "oes"
+			}
+		},
+		{
+			"install": "true",
+			"appname": "nsentest",
+			"pipelinename": "vodafone-india",
+			"params": {
+				"image": "restapp:simple-restapp-130",
+				"account": "prod",
+				"namespace": "restapp"
+			}
+		}
+	]
 }
