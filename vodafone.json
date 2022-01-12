@@ -1,0 +1,53 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@phanikumarp 
+OpsMx
+/
+bom-service
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+  
+{
+	"env": [{
+			"install": "true",
+			"appname": "nsentest",
+			"pipelinename": "vodafone-germany",
+			"params": {
+				"image": "nginx:1.17",
+				"account": "default",
+				"namespace": "nginx"
+			}
+
+		},
+		{
+			"install": "false",
+			"appname": "nsentest",
+			"pipelinename": "vodafone-us",
+			"params": {
+				"image": "postgres:10-alpine",
+				"account": "saas",
+				"namespace": "postgres"
+			}
+		},
+		{
+			"install": "true",
+			"appname": "nsentest",
+			"pipelinename": "vodafone-india",
+			"params": {
+				"image": "restapp:gradle-restapp-22",
+				"account": "prod",
+				"namespace": "restapp"
+			}
+		}
+	]
+}
