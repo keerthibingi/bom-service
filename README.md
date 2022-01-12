@@ -1,3 +1,3 @@
 # bom-service 
 
-For change only git ,it will trigget pipeline 
+Deploy to customers pipeline based on customer bom file in jsons
