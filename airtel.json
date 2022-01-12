@@ -11,7 +11,7 @@
 
 		},
 		{
-			"install": "false",
+			"install": "true",
 			"appname": "nsentest",
 			"pipelinename": "airtel-us",
 			"params": {
