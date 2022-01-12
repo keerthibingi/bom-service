@@ -1,3 +1,3 @@
 # bom-service 
 
-Deploy to customers pipeline based on customer bom file in jsons
+Deploy to customer pipeline based on customer bom file in jsons
