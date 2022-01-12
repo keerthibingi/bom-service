@@ -2,7 +2,7 @@
 	"env": [{
 			"install": "true",
 			"appname": "nsentest",
-			"pipelinename": "vodafone-germany",
+			"pipelinename": "jio-germany",
 			"params": {
 				"image": "nginx:1.17",
 				"account": "default",
@@ -11,9 +11,9 @@
 
 		},
 		{
-			"install": "true",
+			"install": "false",
 			"appname": "nsentest",
-			"pipelinename": "vodafone-us",
+			"pipelinename": "jio-us",
 			"params": {
 				"image": "postgres:10-alpine",
 				"account": "default",
@@ -21,9 +21,9 @@
 			}
 		},
 		{
-			"install": "true",
+			"install": "false",
 			"appname": "nsentest",
-			"pipelinename": "vodafone-india",
+			"pipelinename": "jio-india",
 			"params": {
 				"image": "restapp:simple-restapp-130",
 				"account": "prod",
