@@ -1,7 +1,7 @@
 {
 	"env": [{
 			"install": "true",
-			"appname": "nsentest",
+			"appname": "conditionaldeploydemo",
 			"pipelinename": "jio-germany",
 			"params": {
 				"image": "nginx:1.17",
@@ -11,7 +11,7 @@
 		},
 		{
 			"install": "false",
-			"appname": "nsentest",
+			"appname": "conditionaldeploydemo",
 			"pipelinename": "jio-us",
 			"params": {
 				"image": "postgres:10-alpine",
@@ -21,7 +21,7 @@
 		},
 		{
 			"install": "false",
-			"appname": "nsentest",
+			"appname": "conditionaldeploydemo",
 			"pipelinename": "jio-india",
 			"params": {
 				"image": "restapp:simple-restapp-130",
